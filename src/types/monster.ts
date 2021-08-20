@@ -1,0 +1,32 @@
+import { Environment } from "./environment";
+
+export type Monster = {
+  name: string;
+  meta: string;
+  "Armor Class": string;
+  "Hit Points": string;
+  Speed: string;
+  STR: string;
+  STR_mod: string;
+  DEX: string;
+  DEX_mod: string;
+  CON: string;
+  CON_mod: string;
+  INT: string;
+  INT_mod: string;
+  WIS: string;
+  WIS_mod: string;
+  CHA: string;
+  CHA_mod: string;
+  "Saving Throws"?: string;
+  Skills?: string;
+  "Damage Immunities"?: string;
+  Senses: string;
+  Languages: string;
+  xp: number;
+  Actions?: string;
+  Traits?: string;
+  "Legendary Actions"?: string;
+  img_url: string;
+  environments?: Environment[];
+};

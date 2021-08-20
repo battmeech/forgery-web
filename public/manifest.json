@@ -1,0 +1,9 @@
+{
+  "short_name": "forgery",
+  "name": "Forgery",
+  "display": "standalone",
+  "lang": "en",
+  "start_url": "/",
+  "orientation": "portrait",
+  "prefer_related_applications": false
+}
